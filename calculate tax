@@ -1,0 +1,13 @@
+Scanner input=new Scanner(System.in); int income=input.nextInt();
+float tax;
+if(income<=150000)
+System.out.println("No tax");
+else if(income>=150001 && income<=300000) System.out.println("Tax= "+income/10);
+int a1=90;
+int a2=91;
+int a3=92;
+int a4=93;
+int  total=(a1+a2+a3+a4) ; 
+float agg=total/4f;
+System.out.println(total);
+System.out.println(agg); if(agg>75)
